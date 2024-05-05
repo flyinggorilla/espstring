@@ -1,5 +1,5 @@
 /*
- WString.h - String library for Wiring & Arduino
+  WString.h - String library for Wiring & Arduino
  ...mostly rewritten by Paul Stoffregen...
  Copyright (c) 2009-10 Hernando Barragan.  All right reserved.
  Copyright 2011, Paul Stoffregen, paul@pjrc.com
@@ -17,6 +17,11 @@
  You should have received a copy of the GNU Lesser General Public
  License along with this library; if not, write to the Free Software
  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+ ---------
+ 
+ Modifications/extensions by flyinggorilla
+ 
  */
 
 #ifndef String_class_h
