@@ -172,6 +172,7 @@ public:
     unsigned char concat(int num);
     unsigned char concat(unsigned int num);
     unsigned char concat(long num);
+    unsigned char concat(long long num);
     unsigned char concat(unsigned long num);
     unsigned char concat(float num);
     unsigned char concat(double num);
@@ -210,6 +211,11 @@ public:
         return (*this);
     }
     String & operator +=(long num)
+    {
+        concat(num);
+        return (*this);
+    }
+    String & operator +=(long long num)
     {
         concat(num);
         return (*this);

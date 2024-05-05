@@ -474,6 +474,13 @@ unsigned char String::concat(long num)
     return concat(buf, strlen(buf));
 }
 
+unsigned char String::concat(long long num)
+{
+    char buf[2 + 3 * sizeof(long long)];
+    sprintf(buf, "%lli", num);
+    return concat(buf, strlen(buf));
+}
+
 unsigned char String::concat(unsigned long num)
 {
     char buf[1 + 3 * sizeof(unsigned long)];
